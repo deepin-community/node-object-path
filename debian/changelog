@@ -1,0 +1,73 @@
+node-object-path (0.11.8-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.0
+  * New version 0.11.8 (Closes: CVE-2021-3805)
+
+ -- Yadd <yadd@debian.org>  Fri, 17 Sep 2021 18:23:23 +0200
+
+node-object-path (0.11.7-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Apply multi-arch hints.
+    + node-object-path: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Add test for CVE-2021-23434
+  * New upstream version 0.11.7 (Closes: CVE-2021-23434)
+
+ -- Yadd <yadd@debian.org>  Fri, 03 Sep 2021 20:32:27 +0200
+
+node-object-path (0.11.5-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 0.11.5 (Closes: CVE-2020-15256)
+  * Remove patch
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 22 Oct 2020 14:47:22 +0200
+
+node-object-path (0.11.4-2) unstable; urgency=medium
+
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Honor DEB_BUILD_OPTIONS
+  * Bump debhelper compat
+  * Fix nodejs binary
+  * Update copyright
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Tue, 08 Jan 2019 14:53:51 +0100
+
+node-object-path (0.11.4-1) experimental; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * New upstream release
+  * Bump standards version and fix section
+
+  [ arunasank ]
+  * Port tests to chai 4 (Closes: #884155)
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 20 Jan 2018 16:46:05 +0530
+
+node-object-path (0.11.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #846215)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Mon, 12 Dec 2016 07:38:26 +0000

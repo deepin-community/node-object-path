@@ -1,0 +1,3 @@
+Tests: CVE-2021-23434
+Depends: @, nodejs
+Restrictions: allow-stderr
